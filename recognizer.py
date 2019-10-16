@@ -1,10 +1,10 @@
 #################################### Recognizer #####################################
-# Autores: Fernanda Amaral Melo, Luiz Fernando Neves de Araújo   					#
-# Contato: fernanda.amaral.melo@gmail.com											#
-#          luizfna@gmail.com                                                        #
-#																					#
-# Script detecção de gestos baseado na extração de features da mão					#
-#																					#
+# Autores: Fernanda Amaral Melo, Luiz Fernando Neves de Araújo   				
+# Contato: fernanda.amaral.melo@gmail.com										
+#          luizfna@gmail.com                                                        
+#																				
+# Script detecção de gestos baseado na extração de features da mão				
+#																				
 #####################################################################################
 
 import os
