@@ -24,8 +24,10 @@ Conversão da matriz para o espaço de cores YCbCr e clusterização por Kmeans,
   
 1. Centroide: Calculado a partir do momento da imagem
    
-    - <img src="https://latex.codecogs.com/gif.latex?M _ { i j } = \sum _ {x}\sum _ { y } x ^ { i } y ^ { j } I ( x , y )" />
-    - <img src="https://latex.codecogs.com/gif.latex?\{ \bar { x } \bar { y } \} = \left\{ M _ { 10 }, M _ { 00 } , M _ { 01 }, M _ { 00 } \right\}" />
+    ![eq1](images/eq1.gif?raw=true)
+
+    ![eq2](images/eq2.gif?raw=true)
+
 
 2. Detecção do dedão: Uma faixa lateral nas duas bordas da imagem é avaliada. Se menos de 10% da faixa avaliada for da label mão, significa que existe um dedão neste canto da imagem.
 
@@ -46,6 +48,11 @@ A determinação das features supracitada gera uma sequência binária de 5 valo
 Por questões anatômicas, se algum dedo não for detectado, pressupõe-se que o mesmo está abaixado e do lado da mão no qual não se encontra o dedão.
 
 ![final](images/final.png?raw=true)
+
+## Resultado
+
+![result](images/result.png?raw=true)
+
 
 ## Instalação e uso
 
