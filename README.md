@@ -24,13 +24,13 @@ Conversão da matriz para o espaço de cores YCbCr e clusterização por Kmeans,
   
 1. Centroide: Calculado a partir do momento da imagem
    
-        $M _ { i j } = \sum _ {x}\sum _ { y } x ^ { i } y ^ { j } I ( x , y )$
+    $M _ { i j } = \sum _ {x}\sum _ { y } x ^ { i } y ^ { j } I ( x , y )$
    
-        $\{ \bar { x } \bar { y } \} = \left\{ M _ { 10 }, M _ { 00 } , M _ { 01 }, M _ { 00 } \right\}$
+    $\{ \bar { x } \bar { y } \} = \left\{ M _ { 10 }, M _ { 00 } , M _ { 01 }, M _ { 00 } \right\}$
 
 2. Detecção do dedão: Uma faixa lateral nas duas bordas da imagem é avaliada. Se menos de 10% da faixa avaliada for da label mão, significa que existe um dedão neste canto da imagem.
 
-        ![thumb](images/thumb.png?raw=true)
+    ![thumb](images/thumb.png?raw=true)
 
 3. Detecção dos demais dedos
     + Boundary matrix: É gerada uma "matriz de bordas" que é um array contendo o index dos pixels localizados nas extremidades das mãos.
