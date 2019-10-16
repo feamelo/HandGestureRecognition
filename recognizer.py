@@ -285,6 +285,5 @@ class gestures(object):
 
 for i in range(1,14):
     fileDir = os.path.dirname(os.path.abspath(__file__))
-    print(fileDir + '/images/'+str(i)+'.jpg')
-    detect = gestures(fileDir + '/images/'+str(i)+'.JPG')
+    detect = gestures(fileDir + '/dataset/'+str(i)+'.JPG')
     detect.runner()
